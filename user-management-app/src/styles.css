@@ -1,0 +1,147 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* login*/
+
+body {
+    background: linear-gradient(to bottom right, #004d00, #006600); /* Tamno zelena gradijent */
+    font-family: 'Poppins', sans-serif; /* Novi font */
+    color: #fff;
+    margin: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .login-card {
+    background: rgba(255, 255, 255, 0.9); /* Svetla pozadina za kontrast */
+    border-radius: 10px;
+    width: 350px;
+    padding: 30px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  h3 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .form-label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+    display: block;
+    text-align: left;
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px; /* Razmak između polja */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form-control:focus {
+    border-color: #228B22;
+    outline: none;
+    box-shadow: 0 0 5px rgba(34, 139, 34, 0.5);
+  }
+  
+  .btn-success {
+    background-color: #228B22; /* Tamno zelena */
+    color: #fff;
+    transition: all 0.3s ease;
+    width: 100%; /* Dugme zauzima celu širinu */
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px; /* Razmak između dugmeta i polja */
+  }
+  
+  .btn-success:hover {
+    background-color: #006400; /* Još tamnija zelena pri hoveru */
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  
+
+
+
+
+  /* naslovna */
+
+  body {
+    background: linear-gradient(to bottom right, #004d00, #006600); /* Tamno zelena gradijent */
+    font-family: 'Poppins', sans-serif; /* Novi font */
+    color: #fff;
+    margin: 0;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  h2 {
+    animation: slideIn 1s ease-out;
+    color: #000000; /* Bele boje za kontrast */
+    font-weight: 600;
+  }
+  
+  .table {
+    background-color: rgba(59, 54, 54, 0.95); /* Bele pozadine za bolju vidljivost */
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #000000; /* Svetlo zelena pri hoveru */
+    cursor: pointer;
+  }
+  
+  .table-success {
+    background-color: #228B22; /* Tamno zelena zaglavlja */
+    color: white;
+    font-weight: 600;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
