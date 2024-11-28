@@ -1,4 +1,5 @@
-# ZADATAK
+# Aplikacija za Upravljanje Korisnicima
+
 
 frontend:
 http://localhost:4200/
